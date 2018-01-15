@@ -7,3 +7,15 @@
 .navCenter {
     margin: 0 auto;
 }
+
+.navLogoContainer {
+    width: 80px;
+    margin: 0 15px;
+}
+.navlogo {
+    margin: 0;
+    padding: 0;
+    width: 6%;
+    position: absolute;
+    top: 30px;
+}
