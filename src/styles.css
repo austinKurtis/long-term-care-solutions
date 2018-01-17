@@ -2,3 +2,7 @@
 body {
     font-family: futura-pt, sans-serif;
 }
+
+.p-2 {
+    padding: 0 !important;
+}

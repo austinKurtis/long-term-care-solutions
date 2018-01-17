@@ -1,13 +1,31 @@
 .introTextBox {
-    width: 100%;
     color: #4389d9;
     text-align: center;
+    margin: 0 auto;
+    width: 50%;
 }
-.signImage {
+.homeTopRowRight {
+    width: 50%;
+    margin: 0 auto;
+    text-align:right;
+}
+.blueLogo {
+    width: 77%;
+}
+/* .signImage {
     position: absolute;
     left: 0;
     z-index: 1;
+} */
+.signDiv{
+    width: 65%;
 }
+.homeSignImg {
+    width: 100%;
+    height: auto;
+    
+}
+
 .homeFlag {
     position: absolute;
     top: -211px;
@@ -24,19 +42,18 @@
 
 .blueSquare {
     background-color: #4389d9;
-    width: 100%;
-    height: 639px;
     color: white;
-    padding: 40px 25px 0 130px;
+    padding: 40px 25px 0 40px;
+    width: 35%;
 }
 
-/* .homeAdv {
-    background-image: url(../assets/images/HomeAdvanced.jpg);
+.homeAdv {
+    background-image: url('/assets/images/HomeAdvanced.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 870px;
     color: #fff;
-} */
+}
 
 .homeAdvDark {
     height: 100%;
@@ -46,8 +63,8 @@
     padding-top: 50px;
 }
 .homeAdvTopBox {
-    vertical-align: middle;
-    padding: 10px 0;
+    /* vertical-align: middle;*/
+    padding: 10px 0; 
     margin-bottom: 10px;
     border-bottom: 1px solid rgba(255,255,255,.45);
 }
@@ -71,14 +88,19 @@
     font-size: 5.3em;
     font-weight: bolder;
     text-align: right;
-    padding-right: 0;
 }
 
 .homeBtnTxt {
     font-size: 2.2em;
     margin: 0 !important;
-    text-align: left;
-    padding-left: 5px;
-    padding-top: 2px;
+    padding-left: 15px;
+    padding-top: 23px;
     line-height: 1.1;
+}
+.freeAdvButton {
+    margin: 0 auto;
+    background-color: #f9932f;
+    border-radius: 5px;
+    border-color: #f9932f;
+    padding: 5px 20px 0;
 }
