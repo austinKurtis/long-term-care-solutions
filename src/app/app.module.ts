@@ -19,6 +19,7 @@ import { Agua4NicaraguaComponent } from './agua4-nicaragua/agua4-nicaragua.compo
 import { PowerOfAttorneyComponent } from './power-of-attorney/power-of-attorney.component';
 import { LivingWillComponent } from './living-will/living-will.component';
 import { HealthCareSurrogateComponent } from './health-care-surrogate/health-care-surrogate.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { HealthCareSurrogateComponent } from './health-care-surrogate/health-car
     Agua4NicaraguaComponent,
     PowerOfAttorneyComponent,
     LivingWillComponent,
-    HealthCareSurrogateComponent
+    HealthCareSurrogateComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

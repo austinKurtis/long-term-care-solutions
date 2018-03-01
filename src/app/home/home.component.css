@@ -12,17 +12,11 @@
 .blueLogo {
     width: 77%;
 }
-/* .signImage {
-    position: absolute;
-    left: 0;
-    z-index: 1;
-} */
 .signDiv{
-    width: 65%;
+    width: 50%;
 }
 .homeSignImg {
-    width: 100%;
-    height: auto;
+    height: 100%;
     
 }
 
@@ -31,6 +25,7 @@
     top: -211px;
     left: 65px;
 }
+
 .bluetri {
     position: absolute;
     left: 410px;
@@ -44,7 +39,6 @@
     background-color: #4389d9;
     color: white;
     padding: 40px 25px 0 40px;
-    width: 35%;
 }
 
 .homeAdv {
@@ -103,4 +97,50 @@
     border-radius: 5px;
     border-color: #f9932f;
     padding: 5px 20px 0;
+}
+.afraid {
+    animation-name: fadeouttext;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+
+.family{
+    display: none;
+    animation-name: fadeintext;
+    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeintext {
+    0% {opacity: 0;}
+    99% {opacity: 1;}
+    100% { opacity: 1;}
+}
+
+@keyframes fadeouttext {
+    0% {opacity: 1;}
+    99% {opacity: 0;}
+    100% { opacity: 0; display:none;}
+}
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
 }

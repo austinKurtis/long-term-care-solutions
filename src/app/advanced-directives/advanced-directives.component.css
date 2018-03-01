@@ -1,0 +1,13 @@
+.AdvDirIntro {
+    text-align: center;
+    color: white;
+    background-color: rgba(67, 136, 217, .8);
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 50px 0 20px;
+}
+.backgroundImage{
+    background-image: url('/assets/images/Background.gif');
+    background-repeat: repeat-y;
+    background-size: cover;
+}

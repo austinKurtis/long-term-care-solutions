@@ -16,7 +16,7 @@ import { SocialMediaComponent } from './social-media/social-media.component';
 import { Agua4NicaraguaComponent } from './agua4-nicaragua/agua4-nicaragua.component';
 
 
-const routes: Routes = 
+const routes: Routes =
 [
   {
     path: '',
@@ -74,7 +74,7 @@ const routes: Routes =
     path: 'agua4-nicaragua',
     component: Agua4NicaraguaComponent
   }
-]
+];
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],
   exports: [ RouterModule ]
