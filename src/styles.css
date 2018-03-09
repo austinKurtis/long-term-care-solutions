@@ -6,3 +6,10 @@ body {
 .p-2 {
     padding: 0 !important;
 }
+.AdvDirIntro {
+    text-align: center;
+    color: white;
+    background-color: rgba(67, 136, 217, .8);
+    width: 100%;
+    padding: 50px 0 20px;
+}

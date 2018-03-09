@@ -11,3 +11,14 @@
     background-repeat: repeat-y;
     background-size: cover;
 }
+.buttonsCenter {
+    text-align: center;
+}
+.formsBtn {
+    color: #000;
+    background-color: #f9932f;
+    margin: 20px 40px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
