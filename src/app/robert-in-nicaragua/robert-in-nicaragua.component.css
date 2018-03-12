@@ -1,0 +1,29 @@
+.para2 {
+    color: #4389d9;
+    margin: 0 auto;
+    text-align: center; 
+    padding: 0 50px;
+}
+.tallPics{
+    height: 600px;
+
+}
+.widePics{
+    width: 600px;
+}
+.blueBg{
+    background-color: #4389d9;
+}
+.para13{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 50px;
+}
+.textPad {
+    padding: 25px 0;    
+}
+.ranchoTxt {
+    color: #4389d9;
+    padding: 0 50px;
+}

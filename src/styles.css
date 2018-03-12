@@ -2,7 +2,10 @@
 body {
     font-family: futura-pt, sans-serif;
 }
-
+p {
+    margin: 0;
+    padding: 0;
+}
 .p-2 {
     padding: 0 !important;
 }
