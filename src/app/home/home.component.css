@@ -1,25 +1,28 @@
+.p-2 {
+    padding: 0 !important;
+}
+.topRow {
+    padding-top: 10px; 
+}
+.topLeft {
+    margin: 0 auto;
+}
 .introTextBox {
     color: #4389d9;
     text-align: center;
     margin: 0 auto;
-    width: 50%;
 }
 .homeTopRowRight {
-    width: 50%;
     margin: 0 auto;
     text-align:right;
 }
 .blueLogo {
     width: 77%;
 }
-.signDiv{
-    width: 50%;
-}
-.homeSignImg {
-    height: 100%;
-    
-}
 
+.signImg{
+    min-width: 45%;
+}
 .homeFlag {
     position: absolute;
     top: -211px;
@@ -38,14 +41,15 @@
 .blueSquare {
     background-color: #4389d9;
     color: white;
-    padding: 40px 25px 0 40px;
+    padding: 4em 2em;
+    min-width: 55%;
 }
 
 .homeAdv {
     background-image: url('/assets/images/HomeAdvanced.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 870px;
+    max-height: 870px;
     color: #fff;
 }
 
@@ -60,7 +64,6 @@
     /* vertical-align: middle;*/
     padding: 10px 0; 
     margin-bottom: 10px;
-    border-bottom: 1px solid rgba(255,255,255,.45);
 }
 
 .homeAdvLogo {
@@ -68,9 +71,13 @@
     float: left;
 }
 .homeAdvTxt {
-    width: 250px;
-    padding-top: 45px;
+    max-width: 250px;
+    text-align: center;
     float: right;
+}
+.advQuestion {
+    text-align: center;
+    padding-bottom: 10px;
 }
 .homeAdvBtn {
     color: #000;
@@ -81,24 +88,21 @@
 .homeBtnFree {
     font-size: 5.3em;
     font-weight: bolder;
-    text-align: right;
 }
 
 .homeBtnTxt {
     font-size: 2.2em;
-    margin: 0 !important;
-    padding-left: 15px;
-    padding-top: 23px;
     line-height: 1.1;
 }
 .freeAdvButton {
-    margin: 0 auto;
+    margin: 25px auto;
     background-color: #f9932f;
     border-radius: 5px;
     border-color: #f9932f;
-    padding: 5px 20px 0;
+    padding: 5px 20px;
+    max-width: 100%;
 }
-.afraid {
+/* .afraid {
     animation-name: fadeouttext;
     animation-duration: 2s;
     animation-delay: 5s;
@@ -123,7 +127,7 @@
     0% {opacity: 1;}
     99% {opacity: 0;}
     100% { opacity: 0; display:none;}
-}
+} */
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 

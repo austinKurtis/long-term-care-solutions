@@ -1,6 +1,6 @@
 .para2 {
     color: #4389d9;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 
 .contactRow {
@@ -9,4 +9,8 @@
 a{
     color: #4389d9;
     text-decoration: none; 
+}
+.mapSize {
+    min-width: 75%;
+
 }
