@@ -19,11 +19,7 @@
 .textBorder {
     border-bottom: 2px solid yellow;
 }
-.backgroundImage{
-    background-image: url('/assets/images/Background.gif');
-    background-repeat: repeat-y;
-    background-size: cover;
-}
+
 .tableOpacity {
     opacity: .90;
 }

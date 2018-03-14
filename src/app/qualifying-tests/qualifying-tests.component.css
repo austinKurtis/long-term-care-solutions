@@ -3,10 +3,35 @@
 }
 .para13{
     color: white;
-    padding: 50px;
+    padding: 2em;
+    min-width: 55%;
 }
 
 .para2 {
     color: #4389d9;
-    padding: 50px;
+    padding: 2em;
+    min-width: 55%;
+}
+
+.imgSize{
+    min-width: 45%;
+}
+
+.signImg{
+    width: 100%;
+    min-width: 45%;
+}
+.blueSquare {
+    background-color: #4389d9;
+    color: white;
+    padding: 9em 2em 1em;
+    min-width: 55%;
+    vertical-align: middle;
+}
+.whiteSquare{
+    background-color: white;
+    color: #4389d9;
+    padding: 9em 2em 1em;
+    min-width: 55%;
+    vertical-align: middle;
 }

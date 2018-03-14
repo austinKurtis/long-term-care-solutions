@@ -14,6 +14,9 @@
 .blueBg{
     background-color: #4389d9;
 }
+.whiteBg{
+    background-color: white;
+}
 .para13{
     color: white;
     margin: 0 auto;
@@ -26,4 +29,9 @@
 .ranchoTxt {
     color: #4389d9;
     padding: 0 50px;
+}
+
+.ytVid{
+    max-width: 1280px;
+    min-height: 100%;
 }

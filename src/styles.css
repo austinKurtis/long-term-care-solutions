@@ -18,3 +18,8 @@ h1,h2,h4,h5,h6 {
     width: 100%;
     padding: 50px 0 20px;
 }
+.backgroundImage{
+    background-image: url('/assets/images/Background.gif');
+    background-repeat: repeat-y;
+    background-size: cover;
+}
