@@ -12,8 +12,6 @@ import { PhilanthropyComponent } from './philanthropy/philanthropy.component';
 import { RobertInCubaComponent } from './robert-in-cuba/robert-in-cuba.component';
 import { RobertInNicaraguaComponent } from './robert-in-nicaragua/robert-in-nicaragua.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { SocialMediaComponent } from './social-media/social-media.component';
-import { Agua4NicaraguaComponent } from './agua4-nicaragua/agua4-nicaragua.component';
 
 
 const routes: Routes =
@@ -65,14 +63,6 @@ const routes: Routes =
   {
     path: 'contact-us',
     component: ContactUsComponent
-  },
-  {
-    path: 'social-media',
-    component: SocialMediaComponent
-  },
-  {
-    path: 'agua4-nicaragua',
-    component: Agua4NicaraguaComponent
   }
 ];
 @NgModule({

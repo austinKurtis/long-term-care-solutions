@@ -14,8 +14,6 @@ import { PhilanthropyComponent } from './philanthropy/philanthropy.component';
 import { RobertInCubaComponent } from './robert-in-cuba/robert-in-cuba.component';
 import { RobertInNicaraguaComponent } from './robert-in-nicaragua/robert-in-nicaragua.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { SocialMediaComponent } from './social-media/social-media.component';
-import { Agua4NicaraguaComponent } from './agua4-nicaragua/agua4-nicaragua.component';
 import { PowerOfAttorneyComponent } from './power-of-attorney/power-of-attorney.component';
 import { LivingWillComponent } from './living-will/living-will.component';
 import { HealthCareSurrogateComponent } from './health-care-surrogate/health-care-surrogate.component';
@@ -34,8 +32,6 @@ import { FooterComponent } from './footer/footer.component';
     RobertInCubaComponent,
     RobertInNicaraguaComponent,
     ContactUsComponent,
-    SocialMediaComponent,
-    Agua4NicaraguaComponent,
     PowerOfAttorneyComponent,
     LivingWillComponent,
     HealthCareSurrogateComponent,
