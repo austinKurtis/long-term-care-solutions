@@ -1,5 +1,5 @@
 .pdfContain {
-    height: 800px;
+    max-height: 800px;
 }
 .pdfEmbed {
     width: 100%; 

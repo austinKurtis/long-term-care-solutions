@@ -17,8 +17,11 @@
 .formsBtn {
     color: #000;
     background-color: #f9932f;
-    margin: 20px 40px;
+    margin: 20px auto;
     padding: 10px;
     border-radius: 10px;
     width: 200px;
+}
+.centerButtons {
+    margin: 0 auto;
 }
