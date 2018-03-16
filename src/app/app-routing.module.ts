@@ -63,7 +63,8 @@ const routes: Routes =
   {
     path: 'contact-us',
     component: ContactUsComponent
-  }
+  },
+  { path: '**', component: HomeComponent }
 ];
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],
